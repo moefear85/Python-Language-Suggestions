@@ -16,3 +16,5 @@ My Suggestions to improve the Python Language. All these suggestions can be conf
 7- A concise way to test for nullness, such as "ifn someVar:", where ifn means "if is None", and "ifd someVar:", where ifd means "if defined" or "if exists" or "if not none".
 
 8- Sometimes, one wants to break a statement onto multiple lines, while adding spaces to maintain alignment, otherwise the code looks ugly and complicated. It would be nice, atleast if a \ is present at the end of the line (or another escape char, such as \\\\) that would cause python to forgive a bit with spurios whitespaces or act like none are there. Instead, I keep getting errors. Is it just me?
+
+9- Late Binding for imports: It would be nice when some global variable is imported from another module, any changes to it in the target module are reflected in the source module, so that any other modules that also import that variable, will see the changes. However, since early binding is still necessary, this feature should augment, not replace.
