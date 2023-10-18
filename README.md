@@ -30,4 +30,4 @@ My Suggestions to improve the Python Language. All these suggestions can be conf
 
 14- Ability to use directional quotes in additional to undirectional ones. This might require keyboard modifications or atleast key mapping in order to support this, since for example, the quotes used in libreoffice are directional, ie there are opening quotes followed by closing quotes. The benefit of directional ones, is that these are parentheses-like, and so are indefinately nestable without ambiguity, whereas for undirectional ones, the only option is one level of double quotes within single quotes or vice versa. This then often requires complicated quote escaping for certain strings.
 
-15- The pypi should use namespaces, like android/java such as "foo.bar.spam.eggs". This resolves naming conflicts especially when unrelated teams solve the problem and give it the same most basic reasonable name.
+15- The pypi should use namespaces, like android/java such as "foo.bar.spam.eggs". This resolves naming conflicts especially when unrelated teams solve the same problem and give it the same most basic reasonable name.
